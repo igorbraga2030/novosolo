@@ -6,7 +6,7 @@
 // ******************************************************************************
 using namespace app;
 
-DO_APP_FUNC(0x00789940, void, GameFrameWork_Update, (void/*GameFrameWork*/* __this, MethodInfo* method));
+DO_APP_FUNC(0x007967A0, void, GameFrameWork_Update, (void/*GameFrameWork*/* __this, MethodInfo* method));
 
 DO_APP_FUNC(0x02BE6D40, String*, Marshal_PtrToStringAnsi, (void* ptr, MethodInfo* method));
 DO_APP_FUNC(0x02BE6D60, String*, Marshal_PtrToStringUni, (void* ptr, MethodInfo* method));
